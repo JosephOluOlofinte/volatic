@@ -1,0 +1,212 @@
+*{
+margin: 0;
+padding: 0;
+    }
+
+.hero{
+height: 100vh;
+width: 100%;
+background-image: url(./images/netflixHeroBg.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.opacity{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        z-index: 0;
+    }
+        
+.header{
+        height: 100px;
+        width: 77%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+
+.logoContainer{
+                width: 150px;
+            }
+
+.logo{
+    width: 100%;
+    margin: 0;
+   }
+
+.sign{
+    height: 35px;
+    width: 80px;
+    background-color: #E50914;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.heroBody{
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+    color: white;
+    z-index: 1;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 0.5vw;
+}
+
+.form input{
+    height: 50px;
+    width: 410px;
+    background-color: rgba(75, 167, 242, 0.229);
+    border: solid 1px rgb(120, 122, 122);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.get{
+    height: 40px;
+    width: 200px;
+    background-color: #E50914;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.loginHero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.loginBox{
+    height: calc(100% - 150px);
+    width: 370px;
+    background-color: rgba(0, 0, 0, 0.700);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    gap: 3vh;
+    color: white;
+    z-index: 1;
+    padding: 40px 40px 50px 40px;
+
+}
+
+.loginBox h1 {
+    font-size: 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+    display: flex;
+}
+
+.loginBox .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    margin: 0 30px 0 30px;
+}
+
+.loginBox .form input{
+    height: 55px;
+    width: 100%;
+    background-color: rgba(75, 167, 242, 0.229);
+    border: solid 1px rgb(120, 122, 122);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+/* sign in button on the login page*/
+.loginBox .get{
+    height: 40px;
+    width: 100%;
+    background-color: #E50914;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.loginFooter{
+    width:100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.700);
+    z-index: 1;
+}
+
+.loginBody{
+    background-image: url(./images/netflixHeroBg.jpg); 
+    background-position: center; 
+   /* background-size: cover;*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.forgotP{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.rememberBox{
+    display: flex;
+    align-items: end;
+    height: calc(100% - 450px);
+    padding: 40px 10px 50px 35px;
+}
+
+.idk{
+    width: 100%;
+    color: rgb(171, 175, 179);
+}
+
+.new{
+    margin: 15px 0 15px 0;
+}
+
+.new b{
+    color:rgb(234, 239, 240);
+}
+
+.new p{
+    font-size: 14px;
+}
+
+.new p a{
+    color: blue;
+}
+
+.idk label{
+    color:rgb(234, 239, 240);
+    font-size: 18px;
+}
